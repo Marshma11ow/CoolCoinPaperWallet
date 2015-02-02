@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CoolCoinWallet</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="Generates a printable Bitcoin paper wallet that is the same size as a USD note">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+        <script src="js/bitcoinjs.min.js"></script>
+        <script src="js/main.js"></script>
+
+    </head>
+    <body>
+
+        <!-- Add your site or application content here -->
+        <div id="container">
+
+            <div id="page">
+
+                <div id="wallet">
+                    <div id="qrcodes">
+                        <span id="pubkey"></span>
+                        <span id="prikey"></span>
+                    </div>
+                    <script>generateWallet()</script>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- End content -->
+    </body>
+</html>

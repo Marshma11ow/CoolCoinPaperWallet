@@ -1,0 +1,39 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+
+html {
+
+    /*background-color:   grey !important;*/
+}
+
+#container {
+
+    margin:             3em;
+    background-color:   rgba(114, 156, 199, 0.50)
+    overflow:           auto;
+
+}
+
+#wallet {
+
+    font-size:          7px;
+    text-align:         center;
+    width:              6.14in;
+    height:             2.61in;
+    padding:            8px;
+    margin:             3em auto;
+    background-color:   white;
+    border-style:       dashed;
+    border-width:       1px;
+    /*border-radius:      15px;*/
+}
+
+#qrcodes {
+
+    margin-top:         50px;
+    margin-bottom:      30px;
+}
+
+#pubkey {
+
+    margin-right:       174px;
+}
